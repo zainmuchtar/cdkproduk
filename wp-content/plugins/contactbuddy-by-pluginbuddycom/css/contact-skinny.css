@@ -1,0 +1,91 @@
+.contactbuddy-form {
+	text-align: left;
+}
+.contactbuddy-form table {
+	width: auto;
+}
+.contactbuddy-form ul {
+	overflow: hidden;
+	margin: 0;
+}
+.contactbuddy-form ul,
+.contactbuddy-form ul li {
+	list-style-type: none;
+	list-style: none;
+	margin-bottom: 10px;
+}
+.contactbuddy-form ul li {
+	margin-left: 5px;
+}
+.contactbuddy-form ul li label {
+	color: #666666;
+	text-shadow: #FFFFFF 0px 1px 1px;
+	font-size: 12px;
+}
+.contactbuddy-form ul li textarea,
+.contactbuddy-form ul li input {
+	background: #EEEEEE;
+	border: 1px solid #DDDDDD;
+	color: #888888;
+	font-size: 12px;
+}
+.contactbuddy-form ul li textarea:focus,
+.contactbuddy-form ul li input:focus {
+	background: #FFFFFF;
+	border: 1px solid #888888;
+	color: #555555;
+}
+.contactbuddy-form ul li textarea:hover,
+.contactbuddy-form ul li input:hover {
+	border: 1px solid #888888;
+}
+.contactbuddy-form ul li input[type="submit"] {
+	cursor: pointer;
+}
+.contactbuddy-form ul li input[type="submit"]:hover {
+	background: #FFFFFF;
+	border: 1px solid #888888;
+}
+.contactbuddy-form ul li:before,
+.contactbuddy-form ul li:after {
+	content: none;
+}
+.contactbuddy-form ul li input.cbfit{
+	width: 98%;
+	max-width: 98%;
+}
+.contactbuddy-form ul li textarea.cbfit {
+	width: 100%;
+	max-width: 100%;
+}
+
+.contactbuddy-form ul li textarea.cbfit {
+	font-family: inherit;
+}
+.contactbuddy-form ul li.contactbuddy-name-label {
+	margin-bottom: 0;
+}
+.contactbuddy-form ul li.contactbuddy-email-label {
+	margin-bottom: 0;
+}
+.contactbuddy-form ul li.contactbuddy-subject-label {
+	margin-bottom: 0;
+}
+.contactbuddy-form ul li.contactbuddy-message-label {
+	margin-bottom: 0;
+}
+.contactbuddy-submit {
+	margin-top: 15px;
+}
+.cberror {
+/*
+	background: #FBE3E4;
+	border: 2px solid #FBC2C4;
+*/
+	color: #8A1F11;
+}
+p.cbstatus {
+	border: 1px solid #006600;
+	padding: 4px;
+	width: auto;
+}
