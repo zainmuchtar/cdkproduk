@@ -1,0 +1,70 @@
+/*
+ Theme Name:   Gama Store
+ Theme URI:    http://themes4wp.com/theme/gama-store/
+ Description:  Gama Store is a child theme of Alpha Store WooCommerce WordPress theme. Gama Store includes fullwidth slider and masonry category section. The theme is suitable for any kind of shop like clothing, electronics, accessories, fashion or any other. Gama Store theme is user friendly and easy to use. Main features of Gama Store: Customizer theme options, background image and color, product search with category select, wishlist support, compare support, quick view support, fullwidth slider, masonry categories, SEO optimized, fully responsive, configurable home page, fast loading. Documentation available at http://demo.themes4wp.com/documentation/category/gama-store/ and check the demo at http://demo.themes4wp.com/gama-store/ 
+ Author:       Themes4WP
+ Author URI:   http://themes4wp.com/
+ Template:     alpha-store
+ Version:      1.0.1
+ License:      GNU General Public License v3 or later
+ License URI:  http://www.gnu.org/licenses/gpl-3.0.html
+ Tags:         one-column, two-columns, three-columns, four-columns, right-sidebar, left-sidebar, custom-background, full-width-template, custom-menu, featured-images, theme-options, translation-ready
+ Text Domain:  gama-store
+*/
+
+body, .site-header-cart {
+    background-color: #0a0a0a;
+    color: #fff; 
+}
+.rsrc-container, .panel, .rsrc-copyright, #yith-quick-view-modal .yith-wcqv-main {
+    background-color: #0a0a0a;
+}
+.entry-summary, .woocommerce div.product .woocommerce-tabs ul.tabs li a, .woocommerce ul.products li.product h3, .woocommerce ul.products li.product .price, .page-header, .archive-article header a, h3.widget-title {
+    color: #fff; 
+}
+#add_payment_method #payment, .woocommerce-checkout #payment {
+    background: rgba(235, 233, 235, 0.3);
+}
+
+.header-right, .header-right:after {
+    background: #1E1E1E;
+}
+.header-right, .header-right a, .amount-cart {
+    color: #fff; 
+}
+
+
+@media screen and (max-width: 860px) {
+  #home-slider, #home-slider .flex-viewport, #home-slider.flexslider .slides > li {
+    height: 350px !important;
+}
+}
+#home-slider { 
+  position: relative;
+}
+#home-slider, #home-slider .flex-viewport, #home-slider.flexslider .slides > li {
+    height: 500px;
+}
+#home-slider .slides > li { 
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    display: none; 
+    -webkit-backface-visibility: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+.flex-caption {
+    margin: 0 auto;
+    text-align: center;
+    background-color: transparent;
+    bottom: 5%;
+    width: 100%;
+    padding: 5% 10%;
+    position: absolute;
+    display: inline-block;
+    color: #fff;
+}

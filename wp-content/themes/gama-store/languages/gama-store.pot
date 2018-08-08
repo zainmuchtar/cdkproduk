@@ -1,0 +1,78 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gama Store\n"
+"POT-Creation-Date: 2017-01-20 21:15+0100\n"
+"PO-Revision-Date: 2015-12-14 17:34+0100\n"
+"Last-Translator: Themes4WP <info@themes4wp.com>\n"
+"Language-Team: Themes4WP <info@themes4wp.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lib/kirki\n"
+"X-Poedit-SearchPathExcluded-1: inc/class-tgm-plugin-activation.php\n"
+
+#: lib/gama-store-metaboxes.php:17
+msgid "Homepage Settings"
+msgstr ""
+
+#: lib/gama-store-metaboxes.php:25
+msgid "Slider"
+msgstr ""
+
+#: lib/gama-store-metaboxes.php:26
+msgid "Enable or disable slider"
+msgstr ""
+
+#: lib/gama-store-metaboxes.php:31
+msgid "On"
+msgstr ""
+
+#: lib/gama-store-metaboxes.php:32
+msgid "Off"
+msgstr ""
+
+#: lib/gama-store-metaboxes.php:39
+msgid "Generate slider"
+msgstr ""
+
+#: lib/gama-store-metaboxes.php:41
+msgid "Slide {#}"
+msgstr ""
+
+#: lib/gama-store-metaboxes.php:42
+msgid "Add another slide"
+msgstr ""
+
+#: lib/gama-store-metaboxes.php:43
+msgid "Remove slide"
+msgstr ""
+
+#: lib/gama-store-metaboxes.php:48
+msgid "Image"
+msgstr ""
+
+#: lib/gama-store-metaboxes.php:54
+msgid "Slider Title"
+msgstr ""
+
+#: lib/gama-store-metaboxes.php:59
+msgid "Slider Description"
+msgstr ""
+
+#: lib/gama-store-metaboxes.php:64
+msgid "Button Text"
+msgstr ""
+
+#: lib/gama-store-metaboxes.php:69
+msgid "Button URL"
+msgstr ""

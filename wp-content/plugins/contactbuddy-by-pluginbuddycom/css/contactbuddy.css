@@ -1,0 +1,40 @@
+.contactbuddy-form {
+	text-align: left;
+}
+.contactbuddy-form table {
+	width: auto;
+}
+.contactbuddy-form ul,
+.contactbuddy-form ul li {
+	list-style-type: none;
+	list-style: none;
+	background: transparent;
+}
+.contactbuddy-form ul li:before,
+.contactbuddy-form ul li:after {
+	content: none;
+}
+.contactbuddy-form ul li input.cbfit{
+	width: 98%;
+	max-width: 98%;
+}
+.contactbuddy-form ul li textarea.cbfit {
+	width: 100%;
+	max-width: 100%;
+}
+.contactbuddy-form ul li textarea.cbfit {
+	font-family: inherit;
+}
+.contactbuddy-form ul {
+	margin: 5px;
+}
+.contactbuddy-submit {
+	margin-top: 15px;
+.cberror {
+	color: #8A1F11;
+}
+p.cbstatus {
+	border: 2px solid #006600;
+	padding: 4px;
+	width: auto;
+}
